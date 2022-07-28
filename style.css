@@ -25,10 +25,27 @@
     color: #fff;
     /* font-weight: 300; */
 }
+.download__section{
+    font-weight: 400;
+    font-size: 13px;
+}
 .navbar__menu__container
 {
     display: flex;
     gap: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.user__icon{
+    height: 30px;
+    width: 30px;
+    /* color: #ef4f5f; */
+    border-radius: 100%;
+    border:solid 1px #fff;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    display: none;
 }
 
 @media only screen and (max-width: 600px)
@@ -38,6 +55,9 @@
     }
     .navbar{
         padding: 16px;
+    }
+    .user__icon{
+        display: flex;
     }
     .hero__section{
         min-height: 80vh; 
