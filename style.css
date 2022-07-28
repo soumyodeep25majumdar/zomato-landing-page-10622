@@ -5,3 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.hero__section
+{
+ background: url(images/heroSectionBackground.png);
+}
